@@ -7,11 +7,10 @@ python:
   - "3.7"
   - "3.8"
   - "3.9"
-  - "3.9-dev"  # 3.9 development branch
+  - "3.9.7"
 branches:
   - master
 install:
   - pip install numpy
 script:
-  - python3 Gram_Schmidt.py
-
+  - pytest
