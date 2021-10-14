@@ -3,5 +3,6 @@ python:
   - "3.9"
 install:
   - pip install numpy
+  - pip install pytest
 script:
   - pytest
