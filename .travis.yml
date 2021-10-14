@@ -11,12 +11,8 @@ python:
   - "nightly"  # nightly build
 branches:
   - master
-notifications:
-  email:
-    recipients:
-      - dpumar3@gmail.com
 install:
   - pip install numpy as np
 script:
-  - pytest
+  - python3 Gram_Schmidt.py
 
