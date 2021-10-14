@@ -8,9 +8,8 @@ python:
   - "3.8"
   - "3.9"
   - "3.9.7"
-branches:
-  - master
 install:
+  - python get-pip.py
   - pip install numpy
 script:
   - pytest
